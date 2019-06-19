@@ -10,10 +10,5 @@
     "url": "ssh://git@code.vipkid.com.cn:3590/edu/cc-game/infra/game-base.git"
   },
   "author": "wangweihua@vipkid.com.cn",
-  "license": "ISC",
-  "dependencies": {
-    "util-env": "git+ssh://git@code.vipkid.com.cn:3590/edu/cc-game/infra/util-env.git",
-    "util-strings": "git+ssh://git@code.vipkid.com.cn:3590/edu/cc-game/infra/util-strings.git",
-    "util-loaderp": "git+ssh://git@code.vipkid.com.cn:3590/edu/cc-game/infra/util-loaderp.git"
-  }
+  "license": "ISC"
 }
