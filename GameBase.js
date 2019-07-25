@@ -3,8 +3,15 @@ const strings = require('util-strings');
 require('util-loaderp')
 
 const methods = {
+  // console logging related methods
   $debug: env.debug,
   $log: env.log,
+  $warn: env.warn,
+  $error: env.error,
+  $fatal: env.fatal,
+  $group: env.group,
+  $groupCollapsed: env.groupCollapsed,
+  $groupEnd: env.groupEnd,
   /**
    * Instantiate a cc.Node from a Prefab
    * @param {String} dir directory name in assets/resources/<dir>
@@ -44,7 +51,8 @@ const methods = {
     node['audio' + strings.capitalize(audioName)] = audioUrl;
   },
   playAudio (audioName, node = this) {
-    const url = node['audio' + strings.capitalize(audioName)];
+    const key = strings.capitalize(audioName);
+    const url = node[`audio${key}`] || node[`_$audio${key}`];
     if (!url) return -1;
     return cc.audioEngine.play(url);
   },
