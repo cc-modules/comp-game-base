@@ -3,8 +3,6 @@
   "version": "1.0.4",
   "description": "",
   "main": "GameBase.js",
-  "scripts": {
-  },
   "author": "wangweihua@vipkid.com.cn",
   "license": "ISC"
 }
