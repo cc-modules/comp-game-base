@@ -5,10 +5,6 @@
   "main": "GameBase.js",
   "scripts": {
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@code.vipkid.com.cn:3590/edu/cc-game/infra/game-base.git"
-  },
   "author": "wangweihua@vipkid.com.cn",
   "license": "ISC"
 }
