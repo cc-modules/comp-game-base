@@ -8,7 +8,6 @@ const methods = {
   $log: env.log,
   $warn: env.warn,
   $error: env.error,
-  $fatal: env.fatal,
   $group: env.group,
   $groupCollapsed: env.groupCollapsed,
   $groupEnd: env.groupEnd,
