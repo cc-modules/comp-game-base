@@ -146,8 +146,10 @@ cc.Class({
     this._query = strings.parseQuery(location.search);
 
     const collisionManager = cc.director.getCollisionManager()
-    collisionManager.enabled = this.collisionSystem;
-    collisionManager.enabledDebugDraw = this.debugCollision;
+    if (collisionManager) {
+      collisionManager.enabled = this.collisionSystem;
+      collisionManager.enabledDebugDraw = this.debugCollision;
+    }
 
     this.init();
   },
