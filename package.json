@@ -1,8 +1,6 @@
 {
   "name": "comp-game-base",
   "version": "1.0.5",
-  "description": "",
-  "main": "GameBase.js",
-  "author": "wangweihua@vipkid.com.cn",
-  "license": "ISC"
+  "description": "The Game Base Component",
+  "main": "GameBase.js"
 }
